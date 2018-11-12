@@ -9,7 +9,7 @@ node {
   stage('Build') {
     docker.image('zenoss/build-tools:0.0.10').inside() { 
       withMaven() {
-        sh "mvn -f java package"
+        sh "mvn -B -f java package"
       }
     }
   }
