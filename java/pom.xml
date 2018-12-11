@@ -65,5 +65,12 @@
       </repository>
     </repositories>
 
+<distributionManagement>
+  <repository>
+  <id>bintray-sergevs42-zenoss-ce</id>
+  <name>sergevs42-zenoss-ce</name>
+  <url>https://api.bintray.com/maven/sergevs42/zenoss-ce/zapp-parent/;publish=1</url>
+  </repository>
+</distributionManagement>
 
 </project>
